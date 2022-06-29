@@ -13,7 +13,6 @@ const DRAWS = "Draws";
 const LOSES = "Loses";
 
 export default function Profile() {
-  const { profileId } = useParams();
   const profileState = useLocation().state as SingleProfileState;
   const profile = profileState.profile;
 
